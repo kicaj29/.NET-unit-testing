@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyCallsOrder", "VerifyCallsOrder\VerifyCallsOrder.csproj", "{1F18AB1B-9727-4579-9DE1-8A1199EC5185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyCallsOrder.Tests", "VerifyCallsOrder.Tests\VerifyCallsOrder.Tests.csproj", "{C2CC2082-9682-4A72-930F-E9798225A668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F18AB1B-9727-4579-9DE1-8A1199EC5185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F18AB1B-9727-4579-9DE1-8A1199EC5185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F18AB1B-9727-4579-9DE1-8A1199EC5185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F18AB1B-9727-4579-9DE1-8A1199EC5185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CC2082-9682-4A72-930F-E9798225A668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CC2082-9682-4A72-930F-E9798225A668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CC2082-9682-4A72-930F-E9798225A668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CC2082-9682-4A72-930F-E9798225A668}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EA8724F-6B49-4063-8CAD-28EBFDE0815E}
+	EndGlobalSection
+EndGlobal
