@@ -14,12 +14,14 @@ namespace VerifyCallsOrder.Tests
 
         public IDisposable BeginScope<TState>(TState state)
         {
-            return NullScope.Instance;
+            // return NullScope.Instance;
+            throw new NotImplementedException();
         }
 
         public bool IsEnabled(LogLevel logLevel)
         {
-            return true;
+            //return true;
+            throw new NotImplementedException();
         }
 
         public void Log<TState>(LogLevel logLevel, EventId eventId, TState state, Exception exception, Func<TState, Exception, string> formatter)
