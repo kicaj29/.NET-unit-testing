@@ -25,6 +25,8 @@ namespace VerifyCallsOrder.Controllers
 
             _logger.LogInformation("abc");
 
+            _logger.LogInformation("123");
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
